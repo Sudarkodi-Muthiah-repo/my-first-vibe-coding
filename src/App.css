@@ -1,0 +1,52 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background: var(--text-dark);
+  color: white;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+footer h3 {
+  margin-bottom: 16px;
+  color: var(--primary-color);
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 8px;
+}
+
+footer a {
+  color: #d1d5db;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 32px;
+  margin-top: 32px;
+  border-top: 1px solid #374151;
+  color: #9ca3af;
+}
